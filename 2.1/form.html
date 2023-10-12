@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="/2.1/index.html">Home</a>
+      <a href="/2.1/form.html">Form</a>
+    </nav>
+  </header>
+  <main>
+    <!-- Form -->
+    <form method="POST" action="http://localhost:3000/profile">
+      <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
+      </div>
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name">
+      </div>
+      <!-- Radio Buttons -->
+      <div>
+        <label for="Male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="Female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female">
+      </div>
+      <!-- Checkboxes -->
+      <div>
+        <h4>Hobbies:</h4>
+        <label for="golf">Golf:</label>
+        <input type="checkbox" id="golf" name="hobbies" value="golf">
+        <label for="tennis">Tennis:</label>
+        <input type="checkbox" id="tennis" name="hobbies" value="tennis">
+        <label for="swimming">Swimming:</label>
+        <input type="checkbox" id="swimming" name="hobbies" value="swimming">
+      </div>
+      <!-- Select Element -->
+      <div>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="mexico">Mexico</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <footer>Copyright 2021 &copy;</footer>
+</body>
+
+</html>
