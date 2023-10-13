@@ -186,6 +186,7 @@ footer {
   
     li {
       font-size: 18px; 
+      padding: 0px;
     }
   
     .job-title {
@@ -234,6 +235,7 @@ footer {
     
       li {
         font-size: 16px; 
+        padding: 0px
       }
     
       .job-title {
@@ -249,5 +251,10 @@ footer {
         white-space: wrap;
         font-weight: bold;
       }
+
+      .right-content {
+        padding: 20px;
+      }
+
       
     }
