@@ -1,5 +1,5 @@
-# Mudule2Lab4
-Repository containing Module 2, Lab 4
+# Module 2, Lab4 & 5
+Repository containing Module 2, Lab 4 & 5
 
 Building a resume from scratch using: 
 
@@ -16,3 +16,5 @@ Building a resume from scratch using:
 -Styling text
 
 -Styling links
+
+Making it Responsive
