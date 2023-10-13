@@ -10,6 +10,7 @@ main {
     display: flex;
     height: 100%;
     width: 100%;
+    margin: 0;
 }
 
 body {
@@ -17,6 +18,7 @@ body {
   font-family: "Roboto", sans-serif;
   height: 100%;
   width: 100%;
+  margin: 0;
 }
 
 
@@ -193,10 +195,31 @@ footer {
     .job-subtitle {
       font-size: 18px; 
     }
+
+    .text {
+      margin: 15px;
+      white-space: wrap;
+      font-weight: bold;
+    }
   }
   
 
   @media screen and (max-width: 480px) { 
+
+    main {
+      flex-direction: column; 
+    }
+  
+    .left-side {
+      width: 100%; 
+      min-height: auto; 
+      overflow-y: visible; 
+      padding: 20px 0; 
+    }
+  
+    .right-side {
+      flex: 1;
+    }
     .name-title {
         font-size: 30px; 
       }
@@ -220,4 +243,11 @@ footer {
       .job-subtitle {
         font-size: 16px; 
       }
+
+      .text {
+        margin: 15px;
+        white-space: wrap;
+        font-weight: bold;
+      }
+      
     }
